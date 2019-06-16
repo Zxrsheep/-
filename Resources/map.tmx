@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="arrowmap" tilewidth="32" tileheight="32">
+  <image source="map.png" width="260" height="260"/>
+ </tileset>
+ <layer name="块层 1" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJy1ytlWAVAAQNFLhgwZUkIZGlQSlTGz//8q+839AWet/XYSIYQkV6RIkyHLdTiXI0+BIjeUKFOJviq31LjjnjoPNKKvSYtHnmjToUsv+p554ZU3+rzzwWf0DfhiyDcjxvzwG31/TJgyY86CJf/Rt2LNhi079hw4hst1AidqCCE=
+  </data>
+ </layer>
+ <objectgroup name="对象层 1">
+  <object name="wall1" x="0.5" y="0.5">
+   <polyline points="0,0 254.5,1 254.5,254 251.5,254 249.5,8.5 8,7.5 6,250.5 250.5,251.5"/>
+  </object>
+  <object name="wall2" x="79.5" y="7">
+   <polyline points="0,0 -0.5,41.5 -6.5,39.5 -6,1.5"/>
+  </object>
+  <object name="wall3" x="172.5" y="9.5">
+   <polyline points="0,0 -0.5,37 4.5,41 6.5,40 7,-0.5"/>
+  </object>
+  <object name="wall4" x="191.5" y="58">
+   <polyline points="0,0 41.5,0 46.5,4.5 5.5,6.5 0,0"/>
+  </object>
+  <object name="wall5" x="92.5" y="58">
+   <polyline points="0,0 62.5,0 66.5,5 4.5,6.5 0,1"/>
+  </object>
+  <object name="wall6" x="19" y="57.5">
+   <polyline points="0,0 41,0 47.5,6.5 5,8 0,0.5"/>
+  </object>
+  <object name="wall7" x="73" y="71.5">
+   <polyline points="0,0 0.5,34.5 7,39.5 8,4.5 1.5,0.5"/>
+  </object>
+  <object name="wall8" x="173" y="72.5">
+   <polyline points="0,0 0,33 5.5,39.5 7.5,4.5 0,-1"/>
+  </object>
+  <object name="wall9" x="170.5" y="130">
+   <polyline points="0,0 37,-1 42,5 25,6.5 25,33.5 42,34.5 48.5,40.5 6,42.5 0.5,35 17.5,34 18,6.5 4.5,6.5 0.5,0"/>
+  </object>
+  <object name="wall10" x="215" y="184">
+   <polyline points="0,0 7,6 6.5,36.5 12,36.5 17,41 17.5,43.5 7,43.5 -0.5,35.5 -1.5,18 -19.5,18.5 -20,49 -64.5,49.5 -74,41.5 -74,19 -113.5,19 -114,43.5 -155,44 -163.5,35 -163.5,18 -182,18 -182,47 -185,50.5 -190,46 -189.5,-0.5 -182.5,3.5 -182.5,10 -164,11 -155.5,21.5 -156,36 -122,36 -123,12 -75.5,10.5 -67,20.5 -67,41.5 -28,41 -28.5,10 -2,11 0.5,0 6.5,6"/>
+  </object>
+  <object name="wall11" x="114.5" y="212.5">
+   <polyline points="0,0 8,7 8,38"/>
+  </object>
+  <object name="wall12" x="114.5" y="212">
+   <polyline points="0,0 -1,39.5"/>
+  </object>
+  <object name="wall13" x="104" y="137.5">
+   <polyline points="0,0 8,6 7.5,10.5 40.5,11.5 42,0.5 49.5,4 50,29.5 42.5,24.5 42,19.5 6.5,18.5 7,29.5 -0.5,25.5 0.5,0"/>
+  </object>
+  <object name="wall14" x="39" y="129">
+   <polyline points="0,0 37,-1 43,6.5 26,8 26,40 42.5,40.5 48,46.5 5,48 1,41.5 17,40 17.5,6.5 6.5,8 -0.5,0"/>
+  </object>
+ </objectgroup>
+</map>

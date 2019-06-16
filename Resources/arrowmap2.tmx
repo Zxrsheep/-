@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="TileA2" tilewidth="32" tileheight="32">
+  <image source="TileA2.png" width="512" height="384"/>
+  <tile id="15">
+   <properties>
+    <property name="colledable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="193" name="TileB" tilewidth="32" tileheight="32">
+  <image source="TileB.png" width="512" height="512"/>
+  <tile id="132">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="块层 1" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyNkdEJwCAQQ/2rG7QbtBvoBjqfG+gGdcKeYCAEhX48TiEhZ/TOOb8hENGoRqOp+tO45jkR2XiNTnNojgXICuQd+kLA+8ie0Gsu9m2LnCSZUbKwb5++WzrRWRc9IddTHvTYN1MmesKd++G3RcosG1b/yn7uB/OPF/vqv8L7AVZ9MNk=
+  </data>
+ </layer>
+ <layer name="块层 2" width="15" height="10" opacity="0.91">
+  <data encoding="base64" compression="zlib">
+   eJwrZ2RgKEfDG7HgTVgwSC2x4CUSG5feRqBYBRKG6cOnF6QHhpHBYiBeQqS96GAzEG9BE0PXm4Fmzk5GCEYGMDUwvWVQjK4XBM6g8dH1IgNhIBYB4hAs5rxDwtj0KgOxCg69yACmF1/awJYmYBgA40Mudg==
+  </data>
+ </layer>
+ <layer name="块层 3" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFMLCSEYLxgTRGCEYHOxkhGB8oY4RgQuAeEiYVvEPCAwkAazAJ6Q==
+  </data>
+ </layer>
+ <layer name="collidable" width="15" height="10" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJxTYGBgUKAAEwsU0NjY9GIzG10tLj4utxBjLzEAm7345JHVKGDB2MzHpxeXm7CJEbILl15C5pCCAYFuCOE=
+  </data>
+ </layer>
+</map>

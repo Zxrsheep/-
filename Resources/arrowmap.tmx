@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="mappp" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="地图素材.png" width="343" height="410"/>
+ </tileset>
+ <tileset firstgid="121" name="tiledA" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="TileA.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="286" name="tiledb" tilewidth="32" tileheight="32">
+  <image source="TileB.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="542" name="A2" tilewidth="32" tileheight="32">
+  <image source="TileA2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="734" name="碰撞" tilewidth="32" tileheight="32">
+  <image source="TileA.png" width="512" height="384"/>
+  <tile id="175">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="块层 1" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxTYWJgUIFiVRKwKQ6sikSnIGGYHSZQDFOHrKYEj30lSBifm9D9cQQNI7sPphZk9xWo/D4g3o/mxxQkNxyBqj0HxOeRzDBFc9sRJDOPIqlTQcNX0NQBAJgwILg=
+  </data>
+ </layer>
+ <layer name="块层 2" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANlDHixsSAK3jUXWbEre4yFn0gNfjMIxYcY2JgOA7E3gTMugZUcx2qFptbkN0IUyuJRS0+AADJNRAK
+  </data>
+ </layer>
+ <layer name="块层 3" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA9OMxInhy1gDWFdmBzIycTZWbiAgA2YAKU
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer">
+  <object name="Player" x="40.6667" y="263.333" width="17.3333" height="15.3333"/>
+ </objectgroup>
+ <layer name="collidable" width="10" height="10" opacity="0.32">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAN9DLjxsTqJ0YOXR02faTYSwygxCxcbiHVTAAfJAmR
+  </data>
+ </layer>
+</map>
